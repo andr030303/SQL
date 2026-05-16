@@ -1,0 +1,5 @@
+*.o
+*.out
+*.exe
+Makefile
+*.db
