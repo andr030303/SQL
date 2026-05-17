@@ -11,9 +11,9 @@
       devShells.${system}.default = pkgs.mkShell {
         packages = with pkgs; [
           gdb
+          pkg-config
           fltk_1_4
           sqlite
-          pkg-config
         ];
       };
     };
